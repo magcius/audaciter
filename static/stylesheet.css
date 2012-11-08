@@ -6,3 +6,9 @@ body {
     width: 600px;
     margin: 0 auto;
 }
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: smaller;
+}
