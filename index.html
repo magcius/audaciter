@@ -3,12 +3,14 @@
   <head>
     <meta charset=utf8>
     <title>Audaciter - Convert Audacity Labels to SRT files</title>
-    <link rel=stylesheet href=/static/stylesheet.css>
+    <link rel=stylesheet href=stylesheet.css>
+    <script src=func.js></script>
+    <script src=audaciter.js></script>
   </head>
   <body>
     <h1>Convert Audacity labels.txt format to SRT files</h1>
-    <form action=/upload/ method=post enctype=multipart/form-data>
-      <input type=file name=file>
+    <form id=uploadform method=post enctype=multipart/form-data>
+      <input type=file name=file id=fileupload>
       <input type=submit value=Upload>
     </form>
 
