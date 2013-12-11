@@ -54,7 +54,7 @@
 
         lines.push('');
         lines.push(i + 1);
-        lines.push(srtTimecode(label.start) + '-->' + srtTimecode(label.stop));
+        lines.push(srtTimecode(label.start) + ' --> ' + srtTimecode(label.stop));
         lines.push(label.message);
 
         return lines.join('\n');
