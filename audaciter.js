@@ -16,7 +16,7 @@
         var file = input.files[0];
 
         if (!file)
-            return;
+            return false;
 
         var filename = file.name;
         filename = filename.replace(/\..*$/, '');

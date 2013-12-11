@@ -8,6 +8,15 @@ body {
     text-align: center;
 }
 
+#noscript {
+    display: block;
+    padding: 1em;
+    margin: 1em;
+
+    background: #ffaaaa;
+    border: 1px solid #ff0000;
+}
+
 footer {
     position: absolute;
     bottom: 1.6em;
